@@ -1,0 +1,25 @@
+1x90 (SELU) 96.26% (120 s/epoch)
+2x90 (SELU) 96.83% (155 s/epoch)
+4x90 (SELU) 96.7% (225 s/epoch) 
+
+
+2x90 (RELU) 97.26% (152 s/epoch)
+3x90 (RELU) 96.6% (180 s/epoch)
+4x90 (RELU) 96.56% 205 s/epoch)
+
+
+c6:
+2x90 (RELU) 96.26% (30 s/epoch) JPEG
+2x120 (RELU) 96.23% (45 s/epoch) JPEG
+2x30 (RELU) 95.7% (5 s/epoch) JPEG
+2x60 (RELU) 96.13% (15 s/epoch) JPEG
+
+4x90 (RELU) 96.46% (75 s/epoch) JPEG
+
+2x90 (RELU) 96.86% (30 s/epoch) JPEG q100 /255
+4x90 (RELU) 96.93% (80 s/epoch) JPEG q100 /255
+2x90 (RELU) 96.36% (30 s/epoch) JPEG q100 /2048
+
+c10:
+2x90 (RELU) 96.2% (30 s/epoch) JPEG q100 /2048 c10
+2x90 (RELU) 96.8% (30 s/epoch) JPEG q100 /255 c10
